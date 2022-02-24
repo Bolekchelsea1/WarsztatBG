@@ -1,0 +1,669 @@
+:root{
+    --font-raleway: "Raleway", sans-serif;
+    --font-open-sans: "Open Sans", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    max-width: 1352px;
+}
+
+
+header{
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16);
+}
+
+.container_menu{
+    width: 1352px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    margin: 0;
+    align-items: center;
+
+}
+
+li{
+    display: inline-block;
+    margin-right: 50px;
+    color: #A5A5A5;
+    text-transform: uppercase;
+    font-size: 10px;
+    border-bottom: 2px solid transparent;
+    letter-spacing: 0.1875rem;
+    font-family: var(--font-open-sans);
+    font-weight: bold;
+}
+
+li:hover{
+    cursor: pointer;
+    border-color: #08A6E4;
+    color: black;
+}
+
+li{
+    padding-bottom: 10px;
+}
+
+li:last-of-type{
+    margin-right: 0;
+}
+
+.title{
+    color: #08A6E4;
+    font-size: 20px;
+    margin-left: 0;
+    font-family: var(--font-raleway);
+}
+
+.sekcja_otwierajaca{
+    width: 1352px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tresc{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.obrazek{
+    max-width: 1352px;
+    height: auto;
+}
+
+.open_shop{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 175px;
+    padding-left: 175px;
+    background-color: #08A6E4;
+    color: white;
+    border-radius: 30px;
+    border: 0;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: var(--font-raleway);
+    font-weight: bold;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    font-family: var(--font-raleway);
+
+}
+
+.opis_tytulu{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 55px;
+    font-family: var(--font-raleway);
+
+}
+
+
+
+.statystyki{
+    width: 1352px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_stats{
+    text-align: center;
+    width: 1352px;
+    padding-bottom: 200px;
+}
+
+.tytul_stats{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 40px;
+    font-family: var(--font-raleway);
+}
+
+.ikonki_stats{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.niebieska, .zielona, .czerwona{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.foto_kolo{
+    position: absolute;
+    right: 4px;
+    bottom: 90px;
+}
+
+
+.kolo1{
+    width: 70px;
+    height: 70px;
+    background-color: #FB3B64;
+    border-radius: 50%;
+    position: center;
+}
+
+.kolo2{
+    width: 70px;
+    height: 70px;
+    background-color: #08A6E4;
+    border-radius: 50%;
+
+}
+
+.kolo3{
+    width: 70px;
+    height: 70px;
+    background-color: #55DFB4;
+    border-radius: 50%;
+}
+
+.podpis1{
+    padding-top: 10px;
+    text-align: center;
+    letter-spacing: 0.1875rem;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: var(--font-raleway);
+}
+
+.podpis2{
+    padding-top: 10px;
+    text-align: center;
+    color: #A5A5A5;
+    font-size: 17px;
+    font-family: var(--font-raleway);
+
+}
+
+
+.container_benefity{
+    width: 1352px;
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.benefit_first{
+    border: 1px solid #A5A5A5;
+    width: 80%;
+    height: 300px;
+    background-color: #FFFFFF;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.first_opis{
+    background-color: #FFFFFF;
+    width: 50%;
+    height: 100%;
+}
+
+.podkreslenie1{
+    height: 5px;
+    width: 300px;
+    background-color: #FB3B64;
+    padding-left: 35px;
+    margin-left: 35px;
+}
+
+.kompkwadrat{
+    position: relative;
+}
+
+.kwadrat_foto{
+    width: 150px;
+    height: 150px;
+    background-color: #FB3B64;
+    border-radius: 30px;
+    position: absolute;
+    left: 300px;
+    top: 35px;
+    transform: rotate(40deg);
+
+}
+
+.macbook{
+    height: auto;
+    width: 386px;
+    position: absolute;
+    bottom: -280px;
+    left: 73px;
+}
+
+.first_photo{
+    background-color: #FFFFFF;
+    width: 50%;
+    height: 100%;
+}
+
+.benefit_second{
+    border: 1px solid #F7F7F7;
+    width: 80%;
+    height: 300px;
+    background-color: #FFFFFF;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.second_photo{
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 60%;
+}
+
+.second_opis{
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 40%;
+}
+
+.kolokom{
+    position: relative;
+}
+
+.iphone{
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+
+.kolo_foto{
+    height: 250px;
+    width: 250px;
+    background-color: #08A6E4;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -270px;
+    left: 15%;
+}
+
+.tytulsecondopis{
+    padding-left: 35px;
+    padding-top: 55px;
+    font-size: 30px;
+    font-family: Raleway;
+}
+
+.opis2_h3{
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    font-size: 18px;
+    font-family: var(--font-open-sans);
+}
+
+.podkreslenie3{
+    height: 5px;
+    width: 300px;
+    background-color: #08A6E4;
+    padding-left: 35px;
+    margin-left: 35px;
+}
+
+
+
+.benefit_third{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F7F7F7;
+}
+
+.third1{
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 50%;
+    border: 1px solid #F7F7F7;
+    border-radius: 10px;
+}
+
+h3{
+    padding-left: 35px;
+    padding-top: 55px;
+    font-size: 30px;
+    font-family: Raleway;
+}
+
+.opis_h3{
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    font-size: 18px;
+    font-family: var(--font-open-sans);
+}
+
+.podkreslenie2{
+    height: 5px;
+    width: 300px;
+    background-color: #55DFB4;
+    padding-left: 35px;
+    margin-left: 35px;
+}
+
+.third2{
+    background-color: #55DFB4;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F7F7F7;
+    border-radius: 10px;
+}
+
+.trabka{
+    width: 70%;
+    height: 70%;
+}
+
+
+.cennik{
+    width: 1352px;
+    height: auto;
+    background-color: #FFFFFF;
+}
+
+.tytul_cennik{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: 1352px;
+}
+
+h4{
+    font-size: 40px;
+    font-family: var(--font-raleway);
+    text-align: center;
+}
+
+.contanair_cennik{
+    width: 1352px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.czerwony_cennik{
+    width: 370px;
+    height: 400px;
+    border: 1px solid #FB3B64;
+    border-radius: 18px;
+
+}
+
+.button_czerwony{
+    position: relative;
+}
+
+.button_cennik{
+    width: 150px;
+    height: 50px;
+    background-color: #FB3B64;
+    border-radius: 35px;
+    position: absolute;
+    top: 55px;
+    left: 108px;
+    color: white;
+    border: 0;
+}
+
+.cennik_content{
+    text-align: center;
+    margin-top: 40px;
+    line-height: 20px;
+    border: 0;
+
+}
+
+
+h5{
+    font-size: 20px;
+    font-family: var(--font-raleway);
+    font-weight: bold;
+}
+
+.cena_cennik{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: #FB3B64;
+    font-size: 60px;
+    font-family: var(--font-open-sans);
+    font-weight: lighter;
+}
+
+
+.limited{
+    color: black;
+    font-size: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+
+}
+
+.niebieski_cennik{
+    width: 400px;
+    height: 450px;
+    border: 1px solid #08A6E4;
+    border-radius: 18px;
+
+}
+
+.button_niebieski{
+    position: relative;
+}
+
+.button_cennik2{
+    width: 150px;
+    height: 50px;
+    background-color: #08A6E4;
+    border-radius: 35px;
+    position: absolute;
+    top: 65px;
+    left: 120px;
+    color: white;
+    border: 0;
+}
+
+.zielony_cennik{
+    width: 370px;
+    height: 400px;
+    border: 1px solid #55DFB4;
+    border-radius: 18px;
+
+}
+
+.button_zielony{
+    position: relative;
+}
+
+.button_cennik3{
+    width: 150px;
+    height: 50px;
+    background-color: #55DFB4;
+    border-radius: 35px;
+    position: absolute;
+    top: 15px;
+    left: 115px;
+    color: white;
+    border: 0;
+}
+
+.spis_cennik{
+    font-size: 15px;
+    line-height: 30px;
+    height: 100%;
+}
+
+
+
+/* KONTAKT */
+
+.kontakt{
+    margin-bottom: 150px;
+    width: 1352px;
+    height: 400px;
+    max-width: 1352px;
+}
+
+.contanair_kontakt{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 1352px;
+    margin-top: 50px;
+    padding-left: 30px;
+}
+
+.dane_kontaktowe{
+    height: auto;
+    width: 50%;
+    padding: 50px;
+}
+
+h6{
+    font-size: 40px;
+    font-family: var(--font-raleway);
+    margin-bottom: 25px;
+}
+
+.opis_h6{
+    margin-bottom: 35px;
+}
+
+.opis_ikonki{
+    text-decoration: none;
+    color: #A5A5A5;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.form_kontakt{
+    height: auto;
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 70px;
+}
+
+.form_imput{
+    border: 0px;
+    height: 40px;
+    border-bottom: 1px solid #A5A5A5;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.label_name{
+    text-transform: capitalize;
+    color: #08A6E4;
+    font-family: var(--font-raleway);
+    font-weight: 800;
+    max-width: 500px;
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+
+.checkbox_main {
+    width: 500px;
+    position: relative;
+
+}
+
+.label_check{
+    margin: 0 10px;
+    font-size: 12px;
+    color: #A5A5A5;
+    line-height: 17px;
+    text-align: justify;
+    margin-right: 0;
+    position: absolute;
+    left: 40px;
+}
+
+#checkb{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+.button_kontakt {
+    background-color: #08A6E4;
+    position: absolute;
+    top: 120px;
+    left: 250px;
+    width: 250px;
+    height: 60px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.container_footer{
+    width: 1352px;
+    height: 120px;
+    border-top: 0px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: -7px -4px 100px -24px rgba(66, 68, 90, 1);
+}
+
+.lewa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.podpis_footer{
+    font-size: 10px;
+    padding-top: 10px;
+    color: #A5A5A5;
+
+}
+
+.ikonki_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ikonki{
+    padding-top: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
